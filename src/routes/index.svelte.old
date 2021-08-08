@@ -1,0 +1,59 @@
+<svelte:head>
+    <title>Find Magnet</title>
+</svelte:head>
+
+<div id="page-container">
+    <header>
+        <div id="site-logo">
+            <img src="/favicon.png" alt="Find magnet logo.">
+        </div>
+        <div id="site-title">
+            <h1>Find Magnet</h1>
+        </div>
+        <div id="signup-button">
+            <a href="signup">Signup</a>
+        </div>
+    </header>
+
+</div>
+
+<style>
+    #page-container {
+        width: 1200px;
+        margin: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border: 1px dashed black;
+    }
+    
+    header {
+        overflow: hidden;
+        background-color: cyan;
+        border-radius: 10px;
+    }
+    header div {
+        float: left;
+        border: 1px dashed black;
+    }
+    #site-logo img {
+        height: 70px;
+        margin: 10px;
+    }
+    #site-title h1 {
+        font-size: 40px;
+        margin: 25px 10px;
+    }
+    #signup-button {
+        float: right;
+
+    }
+    #signup-button a {
+        font-size: 40px;
+        text-decoration: none;
+        color: black;
+        display: block;
+        padding: 30px;
+    }
+    #signup-button a:hover {
+        background-color: #008f8f;
+    } 
+</style>
